@@ -967,3 +967,14 @@ textarea {
 	margin-right: auto;
 	margin-bottom: 1.5em;
 }
+
+a:visited {
+	color: inherit; /* Inherit color from the normal link state */
+}
+
+
+.current-menu-item > a,
+.current_page_item > a {
+	text-decoration: underline;
+	font-weight: bold;
+}

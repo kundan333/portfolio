@@ -1,4 +1,8 @@
 {
+    "rules": {
+        "indent": "off"
+    },
+
     "extends": [
         "plugin:@wordpress/eslint-plugin/esnext"
     ],

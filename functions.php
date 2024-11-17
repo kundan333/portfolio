@@ -9,7 +9,7 @@
 
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.0' );
+	define( '_S_VERSION', '1.0.3' );
 }
 
 /**
@@ -175,4 +175,14 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+function theme_enqueue_styles() {
+    wp_enqueue_style(
+        'tailwind-style',
+        get_template_directory_uri() . '/assets/css/style.css',
+        [],
+        _S_VERSION
+    );
+}
+add_action('wp_enqueue_scripts', 'theme_enqueue_styles');
 
