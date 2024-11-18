@@ -20,13 +20,13 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-        <div class="container mt-5 mx-auto p-6 bg-white rounded-lg shadow-lg md:flex md:space-x-10 max-w-6xl h-[500px]">
+        <div class="container mt-8 mx-auto p-6 bg-white rounded-lg shadow-lg md:flex md:space-x-10 max-w-7xl h-[500px]">
 
             <!-- Section 1: Introduction -->
             <div class="md:w-1/2 flex flex-col justify-between text-center md:text-left space-y-4 md:space-y-6">
                 <div>
-                    <h1 class="text-5xl font-bold text-gray-800">Hi there!</h1>
-                    <h2 class="text-4xl font-semibold text-blue-600">I'm Kundan</h2>
+                    <h1 class="text-7xl font-bold text-gray-800">Hi there!</h1>
+                    <h2 class="text-7xl font-semibold text-blue-600">I'm Kundan</h2>
                     <p class="text-lg text-gray-700 mt-6">
                         I'm a full stack PHP, WordPress, and Flutter developer.
                     </p>
@@ -34,7 +34,7 @@ get_header();
                         I make Web and mobile apps.
                     </p>
                 </div>
-                <div class="flex justify-center md:justify-start space-x-4 mt-4">
+                <div class="flex justify-center md:justify-start space-x-4 mt-5">
                     <a href="#contact" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700">Contact</a>
                     <a href="#services" class="bg-gray-300 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-400">Services</a>
                 </div>
@@ -44,6 +44,29 @@ get_header();
             <div class="md:w-1/2 mt-8 md:mt-0">
                 <div class="w-full h-full">
                     <iframe class="rounded-lg shadow-lg w-full h-full" src="https://www.youtube.com/embed/9ELS_Icvjbk" title="Video intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="container mt-5 mx-auto p-6 bg-white rounded-lg shadow-lg md:flex md:space-x-10 max-w-7xl  h-[700px]">
+
+            <!-- Section 1: Introduction -->
+            <div class="md:w-1/2 flex flex-col justify-between text-center md:text-left space-y-4 md:space-y-6">
+                <div>
+                    <h1 class="text-4xl font-bold text-gray-800">About kundan</h1>
+
+                    <p class="text-lg text-gray-700 mt-6">
+                        I'm a full stack PHP, WordPress, and Flutter developer.
+                    </p>
+
+                </div>
+            </div>
+
+
+            <div class="md:w-1/2 mt-8 md:mt-0">
+                <div class="w-full h-full">
+                    <img class="rounded-full w-96 h-96" src="<?php echo get_template_directory_uri(); ?>/assets/images/profile_1.jpg" alt="image description">
                 </div>
             </div>
 
