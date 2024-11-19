@@ -49,7 +49,7 @@ get_header();
 
         </div>
 
-        <div class="container mt-5 mx-auto p-6 bg-white rounded-lg shadow-lg md:flex md:space-x-10 max-w-7xl  h-[700px]">
+        <div class="container mt-5 mx-auto p-6 bg-white rounded-lg shadow-lg md:flex md:space-x-10 max-w-7xl ">
 
             <!-- Section 1: Introduction -->
             <div class="md:w-1/2 flex flex-col justify-between text-center md:text-left space-y-4 md:space-y-6">
@@ -57,18 +57,26 @@ get_header();
                     <h1 class="text-4xl font-bold text-gray-800">About kundan</h1>
 
                     <p class="text-lg text-gray-700 mt-6">
-                        I'm a full stack PHP, WordPress, and Flutter developer.
+                        After graduating from IT Gopeshwar with a Bachelor's degree in <b>Computer Sciences & Engineering</b> in 2019, Kundan relentlessly pursued a career in <b>Full Stack Web Development</b>.
+                        Since then, he has worked with many companies.
+                    </p>
+                    <p class="text-lg text-gray-700 mt-6">
+                        Kundan is the <b>top-rated</b> PHP freelancer on Upwork, with over $10,000+ earned within a year. He's an expert freelancer in his stream, which represents the <b>top 10%</b> of freelancers on Upwork.
+                    </p>
+                    <p class="text-lg text-gray-700 mt-6">
+                        In his free time, Kundan enjoys the peaceful life in the mountains of <b>himalayan</b> region.
                     </p>
 
                 </div>
             </div>
 
 
-            <div class="md:w-1/2 mt-8 md:mt-0">
-                <div class="w-full h-full">
+            <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
+                <div class="w-full h-full flex justify-center">
                     <img class="rounded-full w-96 h-96" src="<?php echo get_template_directory_uri(); ?>/assets/images/profile_1.jpg" alt="image description">
                 </div>
             </div>
+
 
         </div>
 

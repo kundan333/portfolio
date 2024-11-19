@@ -15,7 +15,7 @@ class Custom_Nav_Walker_Desktop extends Walker_Nav_Menu {
         $classes = implode(' ', $item->classes); // Get any existing classes
         $output .= '<li class="custom-li-class ' . esc_attr($classes) . '">'; // Add custom class to <li>
 
-        $attributes = 'class="rounded-md px-3 py-2 text-sm font-medium text-gray-500 hover:bg-gray-700 hover:text-white"'; // Add custom class to <a>
+        $attributes = 'class="rounded-md px-3 py-2 text-lg font-medium text-gray-500 hover:bg-gray-700 hover:text-white"'; // Add custom class to <a>
         $output .= '<a ' . $attributes . ' href="' . esc_url($item->url) . '">';
         $output .= $args->link_before . apply_filters('the_title', $item->title, $item->ID) . $args->link_after;
         $output .= '</a>';
@@ -107,7 +107,7 @@ class Custom_Nav_Walker_Mobile extends Walker_Nav_Menu {
 
 <!--                        </div>-->
 
-                        <div class="hidden sm:ml-6 sm:block">
+                        <div class="hidden sm:ml-6 sm:block w-full">
 
                             <?php
 
@@ -116,7 +116,7 @@ class Custom_Nav_Walker_Mobile extends Walker_Nav_Menu {
                                     'theme_location' => 'portfolio',
                                     'menu_id'        => 'portfolio',
                                     'container'      => false,
-                                    'menu_class'     => 'flex space-x-4',
+                                    'menu_class'     => 'flex  justify-center items-center ',
 //                                    'link_before'    => '<span class="relative text-gray-900 hover:bg-white hover:underline transition-colors px-2 py-1">',
 //                                    'link_after'     => '</span>',
                                     'walker'         => new Custom_Nav_Walker_Desktop(), // Optional: use if you have a custom walker for dropdowns
