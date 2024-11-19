@@ -20,8 +20,7 @@ get_header();
 
 	<main id="primary" class="site-main">
 
-        <div class="container mt-8 mx-auto p-6 bg-white rounded-lg shadow-lg md:flex md:space-x-10 max-w-7xl h-[500px]">
-
+        <div class="container mt-8 mx-auto p-6 bg-white rounded-lg shadow-lg md:flex md:space-x-10 max-w-7xl h-auto md:h-[500px]">
             <!-- Section 1: Introduction -->
             <div class="md:w-1/2 flex flex-col justify-between text-center md:text-left space-y-4 md:space-y-6">
                 <div>
@@ -42,11 +41,12 @@ get_header();
 
             <!-- Section 2: YouTube Introduction Video -->
             <div class="md:w-1/2 mt-8 md:mt-0">
-                <div class="w-full h-full">
-                    <iframe class="rounded-lg shadow-lg w-full h-full" src="https://www.youtube.com/embed/9ELS_Icvjbk" title="Video intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="flex-1 h-full">
+                    <div class="rounded-lg shadow-lg aspect-w-16 aspect-h-9 w-full h-full">
+                        <iframe class="rounded-lg shadow-lg w-full h-full" src="https://www.youtube.com/embed/9ELS_Icvjbk" title="Video intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
-
         </div>
 
 

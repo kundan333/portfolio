@@ -740,6 +740,18 @@ video {
   height: 100%;
 }
 
+.h-\[300px\] {
+  height: 300px;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.min-h-\[200px\] {
+  min-height: 200px;
+}
+
 .w-16 {
   width: 4rem;
 }
@@ -1325,6 +1337,18 @@ video {
     display: flex;
   }
 
+  .md\:h-full {
+    height: 100%;
+  }
+
+  .md\:h-\[500px\] {
+    height: 500px;
+  }
+
+  .md\:min-h-\[300px\] {
+    min-height: 300px;
+  }
+
   .md\:w-1\/2 {
     width: 50%;
   }
@@ -1367,6 +1391,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:min-h-\[400px\] {
+    min-height: 400px;
+  }
+
   .lg\:grid-cols-8 {
     grid-template-columns: repeat(8, minmax(0, 1fr));
   }
