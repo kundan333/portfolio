@@ -34,8 +34,8 @@ get_header();
                     </p>
                 </div>
                 <div class="flex justify-center md:justify-start space-x-4 mt-5">
-                    <a href="#contact" class="bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700">Contact</a>
-                    <a href="#services" class="bg-gray-300 text-gray-800 py-2 px-4 rounded-lg hover:bg-gray-400">Services</a>
+                    <a href="#contact" class="bg-blue-600 !text-white font-semibold py-2 px-4 rounded-lg ">Contact</a>
+                    <a href="#services" class="bg-gray-300 text-gray-800  font-semibold  py-2 px-4 rounded-lg">Services</a>
                 </div>
             </div>
 
@@ -185,7 +185,7 @@ get_header();
 
             <!-- Buttons -->
             <div class="flex space-x-4 mt-6">
-                <a href="#services" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">View Services</a>
+                <a href="#services" class="bg-blue-500 !text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">View Services</a>
                 <a href="#projects" class="bg-gray-500 text-white font-semibold py-2 px-4 rounded hover:bg-gray-600 transition duration-300">View Projects</a>
             </div>
         </div>
@@ -218,7 +218,7 @@ get_header();
 
             <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
                 <div class="w-full h-full flex justify-center">
-                    <img class="rounded-full w-96 h-96" src="<?php echo get_template_directory_uri(); ?>/assets/images/profile_1.jpg" alt="image description">
+                    <img class="rounded-full shadow-lg w-96 h-96" src="<?php echo get_template_directory_uri(); ?>/assets/images/profile_1.jpg" alt="image description">
                 </div>
             </div>
 
