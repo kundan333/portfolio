@@ -49,6 +49,151 @@ get_header();
 
         </div>
 
+
+        <div class="container mt-5 mx-auto p-6 bg-white rounded-lg shadow-lg md:flex md:flex-col space-y-6 max-w-7xl">
+
+            <!-- Services Heading -->
+            <h2 class="text-4xl font-bold text-gray-800">Services</h2>
+
+            <!-- Skills Section -->
+            <div class="space-y-4">
+                <h3 class="text-2xl font-semibold text-gray-700 text-center">Skills I have</h3>
+                <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-6 justify-items-center items-center">
+                    <!-- Skill Logos -->
+                    <div class="group relative shadow-md rounded-md justify-center items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/php.svg" alt="PHP" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">PHP</span>
+                    </div>
+                    <div class="group relative shadow-md rounded-md justify-center items-center">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wordpress-icon.svg" alt="WordPress" class=" p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">WordPress</span>
+                    </div>
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flutter.svg" alt="Flutter" class=" p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Flutter</span>
+                    </div>
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mysql-logo-pure.svg" alt="SQL" class=" p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">SQL</span>
+                    </div>
+
+                    <!-- Zend/Laminas -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/laminas.svg" alt="Zend/Laminas" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Zend/Laminas</span>
+                    </div>
+
+                    <!-- Laravel -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/laravel.svg" alt="Laravel" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Laravel</span>
+                    </div>
+
+                    <!-- Redis -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/redis.svg" alt="Redis" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Redis</span>
+                    </div>
+
+                    <!-- Git -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/git.svg" alt="Git" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Git</span>
+                    </div>
+
+                    <!-- REST API -->
+<!--                    <div class="group relative shadow-md rounded-md">-->
+<!--                        <img src="--><?php //echo get_template_directory_uri(); ?><!--/assets/images/rest-api.svg" alt="REST API" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">-->
+<!--                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">REST API</span>-->
+<!--                    </div>-->
+
+                    <!-- Docker -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/docker.svg" alt="Docker" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Docker</span>
+                    </div>
+
+                    <!-- AWS -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/aws.svg" alt="AWS" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">AWS</span>
+                    </div>
+
+                    <!-- WooCommerce -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/woocommerce.svg" alt="WooCommerce" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">WooCommerce</span>
+                    </div>
+
+                    <!-- Node.js -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nodejs.svg" alt="Node.js" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Node.js</span>
+                    </div>
+
+                    <!-- JIRA -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/jira.svg" alt="JIRA" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">JIRA</span>
+                    </div>
+
+                    <!-- HTML -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/html.svg" alt="HTML" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">HTML</span>
+                    </div>
+
+                    <!-- CSS -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/css.svg" alt="CSS" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">CSS</span>
+                    </div>
+
+                    <!-- JavaScript -->
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/javascript.svg" alt="JavaScript" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">JavaScript</span>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Tools Section -->
+            <div class="space-y-4 ">
+                <h3 class="text-2xl font-semibold text-gray-700 text-center">Tools I use</h3>
+                <div class=" grid grid-cols-3  md:grid-cols-4 lg:grid-cols-4 gap-6 justify-items-center items-center">
+                    <!-- Tool Logos -->
+                    <div class="group relative shadow-md rounded-md ">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/phpstorm.svg" alt="PHPStorm" class=" p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">PHPStorm</span>
+                    </div>
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/postman.svg" alt="Postman" class=" p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Postman</span>
+                    </div>
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/visual-studio-code.svg" alt="VS Code" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">VS Code</span>
+                    </div>
+                    <div class="group relative shadow-md rounded-md">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/android.svg" alt="Android Studio" class="p-2 w-16 h-16 text-gray-800 filter grayscale hover:grayscale-0 transition duration-300">
+                        <span class="absolute -top-10 left-1/2 transform -translate-x-1/2 whitespace-nowrap bg-gray-700 text-white text-sm rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">Android Studio</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Buttons -->
+            <div class="flex space-x-4 mt-6">
+                <a href="#services" class="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition duration-300">View Services</a>
+                <a href="#projects" class="bg-gray-500 text-white font-semibold py-2 px-4 rounded hover:bg-gray-600 transition duration-300">View Projects</a>
+            </div>
+        </div>
+
+
+
+
+
         <div class="container mt-5 mx-auto p-6 bg-white rounded-lg shadow-lg md:flex md:space-x-10 max-w-7xl ">
 
             <!-- Section 1: Introduction -->
