@@ -11,20 +11,19 @@
 
 ?>
 
-
-<footer class="bg-white mt-5 text-gray-800 py-8 " style="box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.05);">
-    <div class="container mx-auto px-4 ">
-        <div class="flex  flex-wrap justify-end">
+<footer class="bg-white dark:bg-gray-800 mt-5 text-gray-800 dark:text-gray-300 py-8" style="box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.05);">
+    <div class="container mx-auto px-4">
+        <div class="flex flex-wrap justify-end">
 
             <!-- Footer Logo and Description -->
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
-                <h2 class="text-xl font-semibold mb-2">About this Site</h2>
-                <p class="text-gray-600">I made this website with custom made wordpress theme. The technology I have used in this are html,css,php,tailwind css.</p>
+                <h2 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">About this Site</h2>
+                <p class="text-gray-600 dark:text-gray-400">I made this website with a custom-made WordPress theme. The technologies I have used are HTML, CSS, PHP, and Tailwind CSS.</p>
             </div>
 
             <!-- Navigation Links -->
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
-                <h3 class="text-lg font-semibold mb-3">Quick Links</h3>
+                <h3 class="text-lg font-semibold mb-3 text-gray-800 dark:text-white">Quick Links</h3>
                 <ul>
                     <?php
                     // Replace 'footer-menu' with the actual menu name you've registered in WordPress
@@ -32,7 +31,7 @@
                         'theme_location' => 'footer-menu',
                         'container' => false,
                         'items_wrap' => '%3$s',
-                        'add_li_class'  => 'mb-2 text-gray-600 hover:text-gray-800',
+                        'add_li_class'  => 'mb-2 text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200',
                     ));
                     ?>
                 </ul>
@@ -40,20 +39,20 @@
 
             <!-- Social Media Links -->
             <div class="w-full md:w-1/3">
-                <h3 class="text-lg font-semibold mb-3">Follow Us</h3>
+                <h3 class="text-lg font-semibold mb-3 text-gray-800 dark:text-white">Follow Us</h3>
                 <div class="flex space-x-4">
                     <!-- Replace # with actual links to your social profiles -->
-                    <a href="#" class="text-gray-600 hover:text-gray-800">
+                    <a href="#" class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200">
                         <svg class="w-6 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <!-- Facebook Icon SVG -->
                         </svg>
                     </a>
-                    <a href="#" class="text-gray-600 hover:text-gray-800">
+                    <a href="#" class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200">
                         <svg class="w-6 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <!-- Twitter Icon SVG -->
                         </svg>
                     </a>
-                    <a href="#" class="text-gray-600 hover:text-gray-800">
+                    <a href="#" class="text-gray-600 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200">
                         <svg class="w-6 h-6" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                             <!-- Instagram Icon SVG -->
                         </svg>
@@ -63,7 +62,7 @@
         </div>
 
         <!-- Footer Bottom Section -->
-        <div class="mt-8 border-t border-gray-200 pt-4 text-center text-gray-600">
+        <div class="mt-8 border-t border-gray-200 dark:border-gray-600 pt-4 text-center text-gray-600 dark:text-gray-400">
             <p>&copy; <?php echo date('Y'); ?> Kundankb. All rights reserved.</p>
         </div>
     </div>
