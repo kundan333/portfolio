@@ -7,9 +7,9 @@
  * @package portfolio
  */
 
-if ( ! defined( '_S_VERSION' ) ) {
+if ( ! defined( 'kUNDANKB_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( '_S_VERSION', '1.0.5' );
+	define( 'kUNDANKB_VERSION', '1.0.5' );
 }
 
 /**
@@ -139,10 +139,10 @@ add_action( 'widgets_init', 'portfolio_widgets_init' );
  * Enqueue scripts and styles.
  */
 function portfolio_scripts() {
-	wp_enqueue_style( 'portfolio-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_enqueue_style( 'portfolio-style', get_stylesheet_uri(), array(), kUNDANKB_VERSION );
 	wp_style_add_data( 'portfolio-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'portfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'portfolio-navigation', get_template_directory_uri() . '/js/navigation.js', array(), kUNDANKB_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
@@ -182,7 +182,7 @@ function theme_enqueue_styles() {
         'tailwind-style',
         get_template_directory_uri() . '/assets/css/style.css',
         [],
-        _S_VERSION
+        kUNDANKB_VERSION
     );
 }
 add_action('wp_enqueue_scripts', 'theme_enqueue_styles');

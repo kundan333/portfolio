@@ -56,6 +56,6 @@ function portfolio_customize_partial_blogdescription() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function portfolio_customize_preview_js() {
-	wp_enqueue_script( 'portfolio-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
+	wp_enqueue_script( 'portfolio-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), KUNDANKB_VERSION, true );
 }
 add_action( 'customize_preview_init', 'portfolio_customize_preview_js' );
