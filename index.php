@@ -27,10 +27,10 @@ get_header();
                     <h1 class="text-7xl font-bold text-gray-800 dark:text-gray-100">Hi there!</h1>
                     <h2 class="text-7xl font-semibold text-blue-600 dark:text-blue-400">I'm Kundan</h2>
                     <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
-                        I'm a full-stack PHP, WordPress, and Flutter developer.
+                        I'm a full-stack developer specializing in PHP, WordPress, and Flutter.
                     </p>
                     <p class="text-lg text-gray-700 dark:text-gray-300 mt-2">
-                        I make Web and mobile apps.
+                        I build web and mobile applications.
                     </p>
                 </div>
                 <div class="flex justify-center md:justify-start space-x-4 mt-5">
@@ -270,34 +270,6 @@ get_header();
 
 
 
-        <div class="container mt-5 mx-auto p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg md:flex md:space-x-10 max-w-7xl">
-
-            <!-- Section 1: Introduction -->
-            <div class="md:w-1/2 flex flex-col justify-between text-center md:text-left space-y-4 md:space-y-6">
-                <div>
-                    <h1 class="text-4xl font-bold text-gray-800 dark:text-white">About Kundan</h1>
-
-                    <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
-                        After graduating from IT Gopeshwar with a Bachelor's degree in <b class="dark:text-blue-400">Computer Sciences & Engineering</b> in 2019, Kundan relentlessly pursued a career in <b class="dark:text-blue-400">Full Stack Web Development</b>.
-                        Since then, he has worked with many companies.
-                    </p>
-                    <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
-                        Kundan is the <b class="dark:text-blue-400">top-rated</b> PHP freelancer on Upwork, with over $10,000+ earned within a year. He's an expert freelancer in his stream, which represents the <b class="dark:text-blue-400">top 10%</b> of freelancers on Upwork.
-                    </p>
-                    <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
-                        In his free time, Kundan enjoys the peaceful life in the mountains of <b class="dark:text-blue-400">Himalayan</b> region.
-                    </p>
-
-                </div>
-            </div>
-
-            <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
-                <div class="w-full h-full flex justify-center">
-                    <img class="rounded-full shadow-lg w-96 h-96" src="<?php echo get_template_directory_uri(); ?>/assets/images/profile_1.jpg" alt="image description">
-                </div>
-            </div>
-
-        </div>
 
 
 

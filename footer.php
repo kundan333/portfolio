@@ -11,6 +11,36 @@
 
 ?>
 
+<div class="container mt-5 mx-auto p-6 bg-white dark:bg-gray-800 rounded-lg shadow-lg md:flex md:space-x-10 max-w-7xl">
+
+    <!-- Section 1: Introduction -->
+    <div class="md:w-1/2 flex flex-col justify-between text-center md:text-left space-y-4 md:space-y-6">
+        <div>
+            <h1 class="text-4xl font-bold text-gray-800 dark:text-white">About Kundan</h1>
+
+            <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
+                After graduating from IT Gopeshwar with a Bachelor's degree in <b class="dark:text-blue-400">Computer Sciences & Engineering</b> in 2019, Kundan relentlessly pursued a career in <b class="dark:text-blue-400">Full Stack Web Development</b>.
+                Since then, he has worked with many companies.
+            </p>
+            <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
+                Kundan is the <b class="dark:text-blue-400">top-rated</b> PHP freelancer on Upwork, with over $10,000+ earned within a year. He's an expert freelancer in his stream, which represents the <b class="dark:text-blue-400">top 10%</b> of freelancers on Upwork.
+            </p>
+            <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
+                In his free time, Kundan enjoys the peaceful life in the mountains of <b class="dark:text-blue-400">Himalayan</b> region.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center items-center">
+        <div class="w-full h-full flex justify-center">
+            <img class="rounded-full shadow-lg w-96 h-96" src="<?php echo get_template_directory_uri(); ?>/assets/images/profile_1.jpg" alt="image description">
+        </div>
+    </div>
+
+</div>
+
+
 <footer class="bg-white dark:bg-gray-800 mt-5 text-gray-800 dark:text-gray-300 py-8" style="box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.05);">
     <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-end">
@@ -18,7 +48,13 @@
             <!-- Footer Logo and Description -->
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
                 <h2 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">About this Site</h2>
-                <p class="text-gray-600 dark:text-gray-400">I made this website with a custom-made WordPress theme. The technologies I have used are HTML, CSS, PHP, and Tailwind CSS.</p>
+                <p class="text-gray-600 dark:text-gray-400">I built this website using a custom WordPress theme. The technologies used include HTML, CSS, PHP, and Tailwind CSS.<a href="https://github.com/kundan333/portfolio" target="_blank" class="inline">
+
+</p>
+                <p class="text-gray-600 dark:text-gray-400">
+                    You can check the source code <img src="<?php echo get_template_directory_uri(); ?>/assets/images/github.svg" alt="GitHub" class="inline p-2 w-8 h-8 filter grayscale hover:grayscale-0 transition duration-300 dark:invert">
+                    </a>
+                </p>
             </div>
 
             <!-- Navigation Links -->
