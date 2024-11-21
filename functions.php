@@ -9,7 +9,7 @@
 
 if ( ! defined( 'kUNDANKB_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
-	define( 'kUNDANKB_VERSION', '1.0.5' );
+	define( 'kUNDANKB_VERSION', '1.0.6' );
 }
 
 /**

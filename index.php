@@ -34,10 +34,10 @@ get_header();
                     </p>
                 </div>
                 <div class="flex justify-center md:justify-start space-x-4 mt-5">
-                    <a href="#contact" class="bg-blue-600 dark:bg-blue-500 text-white font-semibold py-2 px-4 rounded-lg hover:bg-blue-700 dark:hover:bg-blue-600">
+                    <a href="#contact" class="link-btn-primary">
                         Contact
                     </a>
-                    <a href="#services" class="bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold py-2 px-4 rounded-lg hover:bg-gray-400 dark:hover:bg-gray-600">
+                    <a href="#services" class="link-btn-secondary">
                         Services
                     </a>
                 </div>
@@ -192,8 +192,8 @@ get_header();
 
             <!-- Buttons -->
             <div class="flex justify-center items-center space-x-4 mt-6">
-                <a href="#services" class="bg-blue-500 dark:bg-blue-700 !text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 dark:hover:bg-blue-800 transition duration-300">View Services</a>
-                <a href="#projects" class="bg-gray-300 dark:bg-gray-700 text-gray-800 dark:text-gray-200 font-semibold py-2 px-4 rounded-lg hover:bg-gray-400 dark:hover:bg-gray-600">
+                <a href="#services" class="link-btn-primary">View Services</a>
+                <a href="#projects" class="link-btn-secondary">
                     View Projects
                 </a>
             </div>
@@ -255,7 +255,7 @@ get_header();
                         <b class="dark:text-blue-400"> By justine</b>
                     </p>
                     <div class="mt-5">
-                        <a href="https://www.upwork.com/freelancers/~01f81c23b76139f8e4" target="_blank" class="bg-blue-500 dark:bg-blue-700 !text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 dark:hover:bg-blue-800 transition duration-300">
+                        <a href="https://www.upwork.com/freelancers/~01f81c23b76139f8e4" target="_blank" class="link-btn-primary">
                             View All Reviews
                         </a>
                     </div>
