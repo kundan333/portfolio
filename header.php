@@ -40,7 +40,7 @@ class Custom_Nav_Walker_Mobile extends Walker_Nav_Menu {
     function start_el(&$output, $item, $depth = 0, $args = null, $id = 0) {
         // Append each menu link directly without <li> wrapping
         $output .= sprintf(
-            '<a href="%s" class="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-700 hover:text-white">%s</a>',
+            '<a href="%s" class="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-700 hover:text-white visited:text-gray-500">%s</a>',
             esc_url($item->url),
             esc_html($item->title)
         );

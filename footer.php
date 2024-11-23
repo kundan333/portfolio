@@ -41,7 +41,7 @@
 </div>
 
 
-<footer class="bg-white dark:bg-gray-800 mt-5 text-gray-800 dark:text-gray-300 py-8" style="box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.05);">
+<footer class="mb-0 bg-white dark:bg-gray-800 mt-5 text-gray-800 dark:text-gray-300 py-8" style="box-shadow: inset 0 2px 4px 0 rgba(0,0,0,0.05);">
     <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-end">
 
@@ -119,7 +119,9 @@
 //				?>
 <!--		</div>-->
 
-</div><!-- #page -->
+<!--</div>-->
+
+<!-- #page -->
 
 <?php wp_footer(); ?>
 
