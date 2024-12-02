@@ -48,11 +48,10 @@
             <!-- Footer Logo and Description -->
             <div class="w-full md:w-1/3 mb-6 md:mb-0">
                 <h2 class="text-xl font-semibold mb-2 text-gray-800 dark:text-white">About this Site</h2>
-                <p class="text-gray-600 dark:text-gray-400">I built this website using a custom WordPress theme. The technologies used include HTML, CSS, PHP, and Tailwind CSS.<a href="https://github.com/kundan333/portfolio" target="_blank" class="inline">
-
-</p>
+                <p class="text-gray-600 dark:text-gray-400">I built this website using a custom WordPress theme. The technologies used include HTML, CSS, PHP, and Tailwind CSS.</p>
                 <p class="text-gray-600 dark:text-gray-400">
-                    You can check the source code <img src="<?php echo get_template_directory_uri(); ?>/assets/images/github.svg" alt="GitHub" class="inline p-2 w-8 h-8 filter grayscale hover:grayscale-0 transition duration-300 dark:invert">
+                    <a href="https://github.com/kundan333/portfolio" target="_blank" class="inline">
+                        You can check the source code <img src="<?php echo get_template_directory_uri(); ?>/assets/images/github.svg" alt="GitHub" class="inline p-2 w-8 h-8 filter grayscale hover:grayscale-0 transition duration-300 dark:invert">
                     </a>
                 </p>
             </div>
