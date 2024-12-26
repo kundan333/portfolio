@@ -23,7 +23,7 @@
                 Since then, he has worked with many companies.
             </p>
             <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
-                Kundan is the <b class="dark:text-blue-400">top-rated</b> PHP freelancer on Upwork, with over $10,000+ earned within a year. He's an expert freelancer in his stream, which represents the <b class="dark:text-blue-400">top 10%</b> of freelancers on Upwork.
+                Kundan is the <b class="dark:text-blue-400">top-rated</b> PHP freelancer on Upwork. He's an expert freelancer in his stream, which represents the <b class="dark:text-blue-400">top 10%</b> of freelancers on Upwork.
             </p>
             <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
                 In his free time, Kundan enjoys the peaceful life in the mountains of <b class="dark:text-blue-400">Himalayan</b> region.

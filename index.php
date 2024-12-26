@@ -47,7 +47,7 @@ get_header();
             <div class="md:w-1/2 mt-8 md:mt-0">
                 <div class="flex-1 h-full">
                     <div class="rounded-lg shadow-lg aspect-w-16 aspect-h-9 w-full h-full">
-                        <iframe class="rounded-lg shadow-lg w-full h-full" src="https://www.youtube.com/embed/9ELS_Icvjbk"
+                        <iframe class="rounded-lg shadow-lg w-full h-full" src="https://www.youtube.com/embed/VO_dj5TtKlo"
                                 title="Video intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
                         </iframe>
