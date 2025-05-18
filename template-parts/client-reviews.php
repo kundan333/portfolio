@@ -5,6 +5,19 @@
         <div>
             <h1 class="text-4xl font-bold text-gray-800 dark:text-white">Here's what my client say</h1>
 
+            <!-- Video Testimonial -->
+            <div class="mt-8 mb-8">
+                <div class="rounded-lg shadow-lg overflow-hidden">
+                    <iframe width="100%" height="400" src="https://www.youtube.com/embed/-68nC9a45qE?autoplay=1&mute=1" 
+                            title="Recommendation from client" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+
             <p class="text-lg text-gray-700 dark:text-gray-300 mt-6">
                 Really Amazing, Kundan is a very smart and <b class="dark:text-blue-400"> professional freelancer </b>, Kundan was kind enough to even add some other features that were not mentioned in the job description, and will definitely work with him in the future.
             </p>
